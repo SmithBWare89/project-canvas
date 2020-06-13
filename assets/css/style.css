@@ -1,11 +1,11 @@
 /* General Styles Start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     /* color pallette */
-    --silver: #ececec;
-    --orange: #f2a365;
-    --navy: #30475e;
-    --purple: #543864;
-    --dark: #222831;
+    --dark: #0a0a0a;
+    --grey: #e0dede;
+    --purple: #7510F7;
 }
 
 * {
@@ -17,10 +17,8 @@
 
 body {
     /* Webpage background image */
-    background: url(../images/Background.jpg) no-repeat center center fixed;
-    background-size: cover;
+    background: url(../images/background.jpg) no-repeat center fixed;
     width: 100%;
-    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
@@ -33,11 +31,6 @@ header {
     flex-wrap: wrap;
     position: sticky;
     position: -webkit-sticky;
-    background-image: url(../images/Background.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
     z-index: 9999;
 }
 
@@ -50,9 +43,9 @@ header h1 {
 
 header h1 a {
     text-decoration: none;
-    color: var(--purple);
+    color: var(--grey);
     font-weight: 500;
-    text-shadow: 1px 1px 6px var(--silver);
+    text-shadow: 1px 1px 1px var(--dark);
 }
 
 header nav {
@@ -73,17 +66,80 @@ header nav ul li a {
     padding: 5px 10px;
     text-decoration: none;
     font-size: 30px;
-    color: var(--purple);
-    text-shadow: 1px 1px 6px var(--silver);
+    color: var(--grey);
+    text-shadow: 1px 1px 1px var(--dark);
 }
 
 header nav ul li a:hover {
-    background: var(--silver);
-    color: var(--orange);
-    border-radius: 15px;
+    background: var(--purple);
+    color: var(--dark);
+    border-radius: 20px;
     text-shadow: none;
 }
 /* Header Style End */
+
+/* Hero Style Start */
+    /* Align text center and create flexbox */
+    .hero {
+        display: flex;
+        text-align: center !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* Make all text silver */
+    .hero-body  {
+        padding: 3rem 1.5rem;
+        color: var(--dark);
+    }
+
+    .hero-body h1 {
+        font-size: 50px;
+        text-shadow: 2px 2px 2px var(--grey);
+    }
+
+    .hero-body h2 {
+        font-size: 20px;
+        color: var(--dark);
+        text-shadow: 2px 2px 2px var(--grey);
+    }
+    
+    /* animated hero text */
+    .words {
+        line-height: 1;
+        font-size: 0;
+    }
+
+    .words span {
+        display: inline-block;
+        font-size: 30px;
+        animation: move 2s ease-in-out;
+    }
+
+    @keyframes move {
+        0% {
+            transform: translate(-33%,0);
+        }
+
+        50% {
+            text-shadow: 0 15px 40px rgba(117, 16, 247, .8);
+        }
+
+        100% {
+            transform: translate(33%, 0);
+        }
+    }
+
+    .words span:nth-child(odd) {
+        animation-delay: 1%;
+    }
+
+    .words span:nth-child(even) {
+        animation-delay: 1.5%;
+    }
+
+/* Hero Style End */
 
 /* Media Queries */
 @media screen and (max-width: 980px) {
