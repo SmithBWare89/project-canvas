@@ -20,3 +20,11 @@
 - Animations will loop through once upon screen load
 - Caused keyframes & animation to cease when under 768px screen size due to the colors not blending well with the background on mobile size
 - Word swipe animation inspiration, format, and initial style: [https://codepen.io/EricPorter/pen/JjPmOOb]
+
+##### V1 About Me
+- Established About Me
+- Created section title styles and formatted it so that it centers all text
+- input about me text and centered all items
+- Imported profile images to application using CSS
+- Used CSS grid to format the photos so they're contained
+- Used border-radius to round the corners of the images
