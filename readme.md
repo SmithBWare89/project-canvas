@@ -6,7 +6,7 @@
 - Established CSS stylesheet
 - Established Readme
 
-#### Header & Background Image
+#### Commit History
 ##### V1 Commit
 - Set background image in CSS ([Photo by Gavin Allanwood on Unsplash:](https://unsplash.com/photos/IDIbUNVmeNY))
 - Position background image to be static
@@ -20,3 +20,4 @@
 - Added sub-header with animated text to show various adjectives
 - Animations will loop through once upon screen load
 - Caused keyframes & animation to cease when under 768px screen size due to the colors not blending well with the background on mobile size
+- Word swipe animation inspiration, format, and initial style: [https://codepen.io/EricPorter/pen/JjPmOOb]
