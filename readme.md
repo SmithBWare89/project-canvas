@@ -37,3 +37,10 @@
 - Added in transition along with text/shadowing when hovering over image
 - Used media queries to remove hover effects and have text standalone on image on smaller screen sizes. Also, adjusted the text size for smaller screens.
 - Removed 2 additional profile photo's from About Me since they were not responsive when resizing
+
+##### V0.5 - Contact
+- Added contact form to enable e-mailing of information
+- Applied styles to contact form so that it is visible and center
+- Added social media links
+- Added icons to distinguish which icon is which (Courtesy of [font awesome](http://www.fontawesome.com))
+- Disabled e-mail link for contact form when on larger screen sizes and set to enable on mobile.

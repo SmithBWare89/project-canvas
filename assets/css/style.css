@@ -383,8 +383,110 @@
         top: 100px;
         opacity: 1;
     }
-
 /* My Projects Style End */
+
+/* Contact Information Style Start */
+.contact {
+    background-color: var(--dark);
+    margin-top: 10px;
+}
+
+.contact h1 {
+    color: var(--grey);
+    font-weight: 700;
+    text-shadow: 2px 2px 2px var(--darkgrey);
+}
+
+.contact-info {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.contact-form {
+    width: 40%;
+    margin: 5px auto;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 2px solid var(--purple);
+    display: block;
+    padding: 10px 15px;
+    color: var(--dark);
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .75);
+    outline: none;
+}
+
+.form-label {
+    color: var(--grey);
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px var(--darkgrey);
+}
+
+.contact-form button {
+    border: 2px solid var(--purple);
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: var(--dark);
+    background-color: rgba(255, 255, 255, .75);
+    font-weight: 600;
+    font-size: 30px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.social-media {
+    margin: 5px auto;
+}
+
+.social-media ul li,
+.social-media h4  {
+    color: var(--grey);
+    font-weight: 700;
+    text-shadow: 2px 2px 2px var(--darkgrey);
+    font-size: 30px;
+    border-bottom: 3px solid var(--purple);
+}
+
+.social-media ul{
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    color: var(--grey);
+    font-weight: 700;
+    text-shadow: 2px 2px 2px var(--darkgrey);
+    font-size: 30px;
+    border-bottom: 3px solid var(--purple);
+}
+
+.social-media ul li a:visited {
+    text-decoration: none;
+}
+
+.social-media ul li a:hover,
+.contact-form button:hover {
+        background: var(--purple);
+        color: var(--dark);
+        text-shadow: none;
+}
+
+.social-media ul li:last-child {
+    opacity: 0;
+    pointer-events: none;
+}
+/* Contact Information Style End */
+
+
 
 /* Media Queries */
 @media screen and (max-width: 980px) {
@@ -475,5 +577,15 @@
     .project-title, .project-subtitle {
         font-size: 15px;
     }
+
+    .contact-form {
+        display: none;
+    }
+
+    .social-media ul li:last-child {
+        opacity: 1;
+        pointer-events: display;
+    }
+
 
 }
