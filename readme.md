@@ -1,12 +1,11 @@
 # Project-Canvas
 
 # **Commit History**
-#### First Commit
+##### First Commit
 - Established boilerplate
 - Established CSS stylesheet
 - Established Readme
 
-#### Commit History
 ##### V1 Commit
 - Set background image in CSS ([Photo by Gavin Allanwood on Unsplash:](https://unsplash.com/photos/IDIbUNVmeNY))
 - Position background image to be static
