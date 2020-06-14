@@ -7,10 +7,10 @@
 - Established Readme
 
 ##### V1 Commit
-- Set background image in CSS ([Photo by Gavin Allanwood on Unsplash:](https://unsplash.com/photos/IDIbUNVmeNY))
-- Position background image to be static
+- ~~Set background image in CSS ([Photo by Gavin Allanwood on Unsplash:](https://unsplash.com/photos/IDIbUNVmeNY))~~ (See V1 About Me)
+- ~~Position background image to be static~~ (See V1 About Me)
 - [Imported "Poppins" Google Font](https://fonts.google.com/specimen/Poppins) and set it to be font for the body of the webpage
-- Established color pallette in CSS using "root" pseudo-class\
+- Established color pallette in CSS using "root" pseudo-class
 - Made header into a flex navbar to allow create spacing between the links and to also ensure it will flex with resizing
 - Added header resizing media queries for header
 
@@ -28,3 +28,4 @@
 - Imported profile images to application using CSS
 - Used CSS grid to format the photos so they're contained
 - Used border-radius to round the corners of the images
+- Unable to find text color that fit with origin background image therefore replaced with background gradient color. Courtesy of: https://www.eggradients.com/category/gray-gradient?83ff460c_page=4
