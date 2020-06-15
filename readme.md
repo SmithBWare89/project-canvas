@@ -12,15 +12,15 @@ The name "Project Canvas" is being used to encapsulate the purpose of this webpa
 # Application Features
 ### My projects gradient overlay
 
-![Animation to show how hovering over a project card will display a gradient with the project title.](./assets/images/ReadMeMedia/projectsanimation.gif)
+![Animation to show how hovering over a project card will display a gradient with the project title.](assets/images/ReadMeMedia/projectsanimation.gif)
 
 ### Word Carousel
 
-![Animation to show how the hero word scroller functions](./assets/images/readmemedia/wordcarousel.gif)
+![Animation to show how the hero word scroller functions](assets/images/readmemedia/wordcarousel.gif)
 
 ### Nav Bar Highlight
 
-![Animation to show how the navbar links have a purple background with hovered over](./assets/images/ReadMeMedia/NavHighlight.gif)
+![Animation to show how the navbar links have a purple background with hovered over](assets/images/ReadMeMedia/NavHighlight.gif)
 
 ### Contacts Features
 
