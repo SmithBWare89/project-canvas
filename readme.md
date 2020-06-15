@@ -1,4 +1,12 @@
-# Project-Canvas
+# [Project-Canvas](https://smithbware89.github.io/project-canvas/)
+## Description
+The name "Project Canvas" is being used to encapsulate the purpose of this webpage. It's to be my canvas to showcase my journey through the University of Central Florida's coding boot camp program. I hope that as I learn new techniques that I can update this application to be more responsive, attractive, and innovative.
+
+# Methodologies Used
+![Image of HTML and CSS]()
+
+# Application Features
+
 
 # **Commit History**
 ##### First Commit
