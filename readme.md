@@ -28,15 +28,15 @@ The name "Project Canvas" is being used to encapsulate the purpose of this webpa
 
 ### Mobile Contacts Resizing/Form Disappear
 
-<img src="./assets/images/ReadMeMedia/mobile contact.png" height="150" width="200">
+<img src="./assets/images/ReadMeMedia/mobile-contact.png" height="150" width="200">
 
 ### Mobile Hero
 
-<img src="./assets/images/ReadMeMedia/mobile hero.png" height="150" width="200">
+<img src="./assets/images/ReadMeMedia/mobile-hero.png" height="150" width="200">
 
 ### Mobile Projects
 
-<img src="./assets/images/readmemedia/mobile projects.png" height="200" width="200">
+<img src="./assets/images/readmemedia/mobile-projects.png" height="200" width="200">
 
 # **Commit History**
 ##### First Commit
