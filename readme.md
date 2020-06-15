@@ -1,12 +1,42 @@
-# [Project-Canvas](https://smithbware89.github.io/project-canvas/)
+# Project-Canvas (https://smithbware89.github.io/project-canvas/)
 ## Description
 The name "Project Canvas" is being used to encapsulate the purpose of this webpage. It's to be my canvas to showcase my journey through the University of Central Florida's coding boot camp program. I hope that as I learn new techniques that I can update this application to be more responsive, attractive, and innovative.
 
 # Methodologies Used
-![Image of HTML and CSS]()
+- <img src="./assets/images/ReadMeMedia/HTML-CSS.png" height="150" width="200">
+- ### [Word Carousel](https://codepen.io/EricPorter/pen/JjPmOOb)
+- ### ["Poppins" Google Font](https://fonts.google.com/specimen/Poppins)
+- ### [Gradient Background](https://www.eggradients.com/category/gray-gradient?83ff460c_page=4)
+- ### [Font Awesome Icons](http://www.fontawesome.com)
 
 # Application Features
+### My projects gradient overlay
 
+<img src="./assets/images/ReadMeMedia/projectsanimation.gif" height="200" width="400">
+
+### Word Carousel
+
+<img src="./assets/images/ReadMeMedia/wordcarousel.gif" height="200" width="400">
+
+### Nav Bar Highlight
+
+<img src="./assets/images/ReadMeMedia/NavHighlight.gif" height="200" width="400">
+
+### Contacts Features
+
+<img src="./assets/images/ReadMeMedia/Contacts.gif" height="200" width="400">
+
+### Mobile Contacts Resizing/Form Disappear
+
+<img src="./assets/images/ReadMeMedia/mobile contact.png" height="150" width="200">
+
+### Mobile Hero
+
+<img src="./assets/images/ReadMeMedia/mobile hero.png" height="150" width="200">
+
+### Mobile Projects
+
+<img src="./assets/images/readmemedia/mobile projects.png" height="200" width="200">
 
 # **Commit History**
 ##### First Commit
@@ -15,9 +45,9 @@ The name "Project Canvas" is being used to encapsulate the purpose of this webpa
 - Established Readme
 
 ##### V0.1 - Initial Changes
-- Set background image in CSS ([Photo by Gavin Allanwood on Unsplash:](https://unsplash.com/photos/IDIbUNVmeNY)) (See V1 About Me)
+- ~~Set background image in CSS ([Photo by Gavin Allanwood on Unsplash:](https://unsplash.com/photos/IDIbUNVmeNY))~~
 - Position background image to be static (See V1 About Me)
-- [Imported "Poppins" Google Font](https://fonts.google.com/specimen/Poppins) and set it to be font for the body of the webpage
+- Imported font and set it to be font for the body of the webpage
 - Established color pallette in CSS using "root" pseudo-class
 - Made header into a flex navbar to allow create spacing between the links and to also ensure it will flex with resizing
 - Added header resizing media queries for header
@@ -26,8 +56,8 @@ The name "Project Canvas" is being used to encapsulate the purpose of this webpa
 - Added headline with adjectives to describe who I am
 - Added sub-header with animated text to show various adjectives
 - Animations will loop through once upon screen load
-- Caused keyframes & animation to cease when under 768px screen size due to the colors not blending well with the background on mobile size
-- Word swipe animation inspiration, format, and initial style: [https://codepen.io/EricPorter/pen/JjPmOOb]
+- Disabled keyframes & animation to when under 768px screen size due to the colors not blending well with the background on mobile size
+- Added word carousel
 
 ##### V0.3 - Added About Me
 - Established About Me
@@ -36,7 +66,7 @@ The name "Project Canvas" is being used to encapsulate the purpose of this webpa
 - Imported profile images to application using CSS
 - Used CSS grid to format the photos so they're contained
 - Used border-radius to round the corners of the images
-- Unable to find text color that fit with origin background image therefore replaced with background gradient color. Courtesy of: https://www.eggradients.com/category/gray-gradient?83ff460c_page=4
+- Unable to find text color that fit with origin background image therefore replaced with background gradient color.
 
 ##### V0.4 - Added My Projects
 - Added images of both Horiseon and Run Buddy websites
@@ -50,7 +80,7 @@ The name "Project Canvas" is being used to encapsulate the purpose of this webpa
 - Added contact form to enable e-mailing of information
 - Applied styles to contact form so that it is visible and center
 - Added social media links
-- Added icons to distinguish which icon is which (Courtesy of [font awesome](http://www.fontawesome.com))
+- Added icons to distinguish social media links
 - Disabled e-mail link for contact form when on larger screen sizes and set to enable on mobile.
 
 ##### V0.6 - Formatting Updates
@@ -66,3 +96,13 @@ The name "Project Canvas" is being used to encapsulate the purpose of this webpa
 - Cleaned up HTML formatting
 - Adjusted margins for sections
 - Added focus pseudo class to text areas in contact section
+
+##### V0.8 - ReadMe Images
+- Added Images to GitHUb
+
+##### V0.9 - Final ReadMe Updates
+- Reformatted read me
+- Added links to methodologies used in application
+- Add images and gifs to ReadMe
+
+# V1.0 - Application Launch

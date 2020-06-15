@@ -1,10 +1,7 @@
 /* General Styles Start */
-    /* Application Font */
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-    /* Color Pallette */
     :root {
-        /* color pallette */
         --dark: #0a0a0a;
         --darkgrey: #888888;
         --grey: #f0f0f0;
@@ -12,7 +9,6 @@
         --purple: #7510F7;
     }
 
-    /* Apply All */
     * {
         margin: 0;
         padding: 0;
@@ -21,7 +17,6 @@
     }
 
     body, html {
-        /* Webpage background image */
         -moz-background-size: cover;
         -o-background-size: cover;
         background-color: #bdcad9;
@@ -32,7 +27,6 @@
         z-index: 9999;
     }
 
-    /* Section Title */
     .section-header {
         text-align: center;
         margin: 0 auto 35px auto;
@@ -53,18 +47,17 @@
 /* General Styles End */
 
 /* Header Style Start */
-    /* Flex Header Content, Center, And Stick To Top */
     header {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         position: sticky;
         position: -webkit-sticky;
+        width: 100%;
         z-index: 9999;
         background-color: var(--dark);
     }
 
-    /* Brand */
     header h1 {
         margin: 0;
         padding: 10px 15px;
@@ -72,7 +65,6 @@
         font-weight: 700px;
     }
 
-    /* Brand Text/Link */
     header h1 a {
         text-decoration: none;
         color: var(--grey);
@@ -81,12 +73,10 @@
         padding: 10px 10px;
     }
 
-    /* NavBar Margin */
     header nav {
         margin: 10px 0;
     }
 
-    /* NavBar Links Flex */
     header nav ul {
         display: flex;
         flex-wrap: wrap;
@@ -95,7 +85,6 @@
         list-style: none;
     }
 
-    /* NavBar Links Text Style */
     header nav ul li a {
         margin: 0;
         padding: 10px 10px;
@@ -106,7 +95,6 @@
         text-shadow: 2px 2px 2px var(--darkgrey);
     }
 
-    /* NavBar Links Hover Effect */
     header nav ul li a:hover {
         background: var(--purple);
         color: var(--white);
@@ -116,7 +104,6 @@
 /* Header Style End */
 
 /* Hero Style Start */
-    /* Align text center and create flexbox */
     .hero {
         display: flex;
         text-align: center !important;
@@ -125,7 +112,6 @@
         flex-direction: column;
     }
 
-    /* Make all text silver */
     .hero-body  {
         padding: 3rem 1.5rem;
         color: var(--dark);
@@ -278,7 +264,7 @@
     .profile-info p {
         text-align: left;
         width: 30%;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 600;
         align-self: flex-start;
         margin-left: 20px;
@@ -385,252 +371,243 @@
 /* My Projects Style End */
 
 /* Contact Information Style Start */
-.contact {
-    background-color: var(--dark);
-}
+    .contact {
+        background-color: var(--dark);
+    }
 
-.contact h1 {
-    color: var(--grey);
-    font-weight: 700;
-    text-shadow: 2px 2px 2px var(--darkgrey);
-}
+    .contact h1 {
+        color: var(--grey);
+        font-weight: 700;
+        text-shadow: 2px 2px 2px var(--darkgrey);
+    }
 
-.contact-info {
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0 auto;
-}
+    .contact-info {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
 
-.contact-form {
-    width: 40%;
-    margin: 5px 0;
-}
+    .contact-form {
+        width: 40%;
+        margin: 5px 0;
+    }
 
-.contact-form input, .contact-form textarea {
-    border: 2px solid var(--purple);
-    display: block;
-    padding: 10px 15px;
-    color: var(--dark);
-    font-weight: 600;
-    font-size: 20px;
-    width: 100%;
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255, .75);
-    outline: none;
-}
+    .contact-form input, .contact-form textarea {
+        border: 2px solid var(--purple);
+        display: block;
+        padding: 10px 15px;
+        color: var(--dark);
+        font-weight: 600;
+        font-size: 20px;
+        width: 100%;
+        border-radius: 15px;
+        background-color: rgba(255, 255, 255, .75);
+        outline: none;
+    }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
-    background-color: var(--white);
-}
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+        background-color: var(--white);
+    }
 
-.form-label {
-    color: var(--grey);
-    font-weight: 700;
-    font-size: 30px;
-    text-shadow: 2px 2px 2px var(--darkgrey);
-}
+    .form-label {
+        color: var(--grey);
+        font-weight: 700;
+        font-size: 30px;
+        text-shadow: 2px 2px 2px var(--darkgrey);
+    }
 
-.contact-form button {
-    border: 2px solid var(--purple);
-    margin-top: 10px;
-    padding: 10px 15px;
-    color: var(--white);
-    background-color: rgba(117, 16, 247, .75);
-    font-weight: 600;
-    font-size: 30px;
-    width: 100%;
-    border-radius: 15px;
-}
+    .contact-form button {
+        border: 2px solid var(--purple);
+        margin-top: 10px;
+        padding: 10px 15px;
+        color: var(--white);
+        background-color: rgba(117, 16, 247, .75);
+        font-weight: 600;
+        font-size: 30px;
+        width: 100%;
+        border-radius: 15px;
+    }
 
-.social-media {
-    margin: 5px 0;
-}
+    .social-media {
+        margin: 5px 0;
+    }
 
-.social-media ul li,
-.social-media h4  {
-    color: var(--grey);
-    font-weight: 700;
-    text-shadow: 2px 2px 2px var(--darkgrey);
-    font-size: 30px;
-    border-bottom: 3px solid var(--purple);
-}
+    .social-media ul li,
+    .social-media h4  {
+        color: var(--grey);
+        font-weight: 700;
+        text-shadow: 2px 2px 2px var(--darkgrey);
+        font-size: 30px;
+        border-bottom: 3px solid var(--purple);
+    }
 
-.social-media ul {
-    list-style: none;
-    padding-bottom: 5px;
-}
+    .social-media ul {
+        list-style: none;
+        padding-bottom: 5px;
+    }
 
-.social-media ul li a {
-    text-decoration: none;
-    color: var(--grey);
-    font-weight: 700;
-    text-shadow: 2px 2px 2px var(--darkgrey);
-    font-size: 30px;
-    border-bottom: 3px solid var(--purple);
-}
+    .social-media ul li a {
+        text-decoration: none;
+        color: var(--grey);
+        font-weight: 700;
+        text-shadow: 2px 2px 2px var(--darkgrey);
+        font-size: 30px;
+        border-bottom: 3px solid var(--purple);
+    }
 
-.social-media ul li a:visited {
-    text-decoration: none;
-}
+    .social-media ul li a:visited {
+        text-decoration: none;
+    }
 
-.social-media ul li a:hover,
-.contact-form button:hover {
-        background: var(--white);
-        color: var(--purple);
-        text-shadow: none;
-}
+    .social-media ul li a:hover,
+    .contact-form button:hover {
+            background: var(--white);
+            color: var(--purple);
+            text-shadow: none;
+    }
 
-.social-media ul li:last-child {
-    opacity: 0;
-    pointer-events: none;
-}
+    .social-media ul li:last-child {
+        opacity: 0;
+        pointer-events: none;
+    }
 /* Contact Information Style End */
 
 
 
-/* Media Queries */
-@media screen and (max-width: 980px) {
-    /* About Me */
-        /* Flex direction column to vertically align */
-        .profile-info {
-            flex-direction: column;
-            flex-wrap: nowrap;
+/* Media Queries Styles Start*/
+    @media screen and (max-width: 980px) {
+            .profile-info {
+                flex-direction: column;
+                flex-wrap: nowrap;
+            }
+
+            .profile-info img {
+                margin: 0 auto;
+            }
+
+            .profile-info p {
+                margin-top: 10px;
+                font-size: 20px;
+                align-self: center;
+                justify-self: center;
+            }
+
+            .project-container {
+                flex-direction: column;
+            }
+
+            .project-wrapper-lg, .project-wrapper-sm {
+                margin-bottom: 10px;
+            }
+
+            .project2 {
+                height: 400px;
+            }
+
+            .profile-info p {
+                width: 70%;
+                margin: 10px auto;
+                font-size: 20px;
+                text-align: start;
+            }
+    }
+
+    @media screen and (max-width: 768px) {
+            header  {
+                padding-bottom: 0;
+                justify-content: center;
+                position: relative;
+            }
+
+            header h1 {
+                text-align: center;
+                width: 100%;
+                font-size: 40px;
+            }
+
+            header nav ul {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .hero-body h4 {display: none;}
+            .flip2 {animation: none;}
+            .flip3 {animation: none;}
+            .flip4 {animation: none;}
+        
+            .project-container {
+                width: 55%;
+            }
+
+            .project-img::after {
+                transition: none;
+                content: none;
+            }
+
+            .project-wrapper-lg:hover .project-title, 
+            .project-wrapper-lg:hover .project-subtitle {
+                transition: none;
+            }
+
+            .project-wrapper-sm:hover .project-title, 
+            .project-wrapper-sm:hover .project-subtitle {
+                top: 150px;
+                transition: none;
+            }
+
+            .project-title, .project-subtitle {
+                opacity: 1;
+            }
+
+            .project-title, .project-subtitle {
+                font-size: 20px;
+            }
+
+            .profile-info img {
+                width: 300px;
+            }
+
+            .profile-info p {
+                width: 50%;
+            }
+        
+        .social-media ul li a:hover,
+        .contact-form button:hover {
+            background: none;
+            color: unset;
+            text-shadow: unset;
         }
 
-        .profile-info img {
-            margin: 0 auto;
-        }
-
-        .profile-info p {
-            margin-top: 10px;
+        .social-media ul li,
+        .social-media h4,
+        .social-media ul li a {
             font-size: 20px;
-            align-self: center;
-            justify-self: center;
         }
-    /* My Project */
-        /* Cards take up verticle space */
+    }
+
+    @media screen and (max-width: 575px) {
         .project-container {
-            flex-direction: column;
+            width: 75%;
         }
 
-        /* Cards given equal spacing in flex */
-        .project-wrapper-lg, .project-wrapper-sm {
-            /* Adds spacing between cards */
-            margin-bottom: 10px;
+        .project-title, .project-subtitle {
+            font-size: 15px;
         }
 
-        /* Card takes up equal height */
-        .project2 {
-            height: 400px;
-        }
-
-        .profile-info p {
+        .profile-info P {
             width: 70%;
-            margin: 10px auto;
-            font-size: 20px;
-            text-align: start;
         }
 
-}
-
-@media screen and (max-width: 768px) {
-    /* Header Section */
-        header  {
-            padding-bottom: 0;
-            justify-content: center;
-            position: relative;
+        .contact-form {
+            display: none;
         }
 
-        header h1 {
-            text-align: center;
-            width: 100%;
-            font-size: 40px;
-        }
-
-        header nav ul {
-            width: 100%;
-            justify-content: center;
-        }
-
-    /* Word Carousel Disappears And Animation Stops */
-        .hero-body h4 {display: none;}
-        .flip2 {animation: none;}
-        .flip3 {animation: none;}
-        .flip4 {animation: none;}
-    
-    /* My Projects */
-        .project-container {
-            width: 55%;
-        }
-
-        .project-img::after {
-            transition: none;
-            content: none;
-        }
-
-        /* Takes away title/subtitle animation for lg card */
-        .project-wrapper-lg:hover .project-title, 
-        .project-wrapper-lg:hover .project-subtitle {
-            transition: none;
-        }
-
-        /* Takes away title/subtitle animation for sm card */
-        .project-wrapper-sm:hover .project-title, 
-        .project-wrapper-sm:hover .project-subtitle {
-            top: 150px;
-            transition: none;
-        }
-
-        /* Makes title/subtitle reappear */
-        .project-title, .project-subtitle {
+        .social-media ul li:last-child {
             opacity: 1;
+            pointer-events: visible;
         }
-
-        .project-title, .project-subtitle {
-            font-size: 20px;
-        }
-
-    /* About Me */
-        .profile-info img {
-            width: 300px;
-        }
-    
-    /* Social Media Links */
-    .social-media ul li a:hover,
-    .contact-form button:hover {
-        background: none;
-        color: unset;
-        text-shadow: unset;
     }
-
-    .social-media ul li,
-    .social-media h4,
-    .social-media ul li a {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    /* My Projects */
-    .project-container {
-        width: 75%;
-    }
-
-    .project-title, .project-subtitle {
-        font-size: 15px;
-    }
-
-    .contact-form {
-        display: none;
-    }
-
-    .social-media ul li:last-child {
-        opacity: 1;
-        pointer-events: visible;
-    }
-
-
-}
+/* Media Queries Style End */
