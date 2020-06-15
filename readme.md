@@ -12,7 +12,7 @@ The name "Project Canvas" is being used to encapsulate the purpose of this webpa
 # Application Features
 ### My projects gradient overlay
 
-<img src="./assets/images/ReadMeMedia/projectsanimation.gif" height="200" width="400">
+<img src="./assets/images/ReadMeMedia/ProjectsAnimation.gif" height="200" width="400">
 
 ### Word Carousel
 
@@ -36,7 +36,7 @@ The name "Project Canvas" is being used to encapsulate the purpose of this webpa
 
 ### Mobile Projects
 
-<img src="./assets/images/readmemedia/mobile-projects.png" height="200" width="200">
+<img src="./assets/images/ReadMeMedia/mobile-projects.png" height="200" width="200">
 
 # **Commit History**
 ##### First Commit
