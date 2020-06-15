@@ -44,3 +44,11 @@
 - Added social media links
 - Added icons to distinguish which icon is which (Courtesy of [font awesome](http://www.fontawesome.com))
 - Disabled e-mail link for contact form when on larger screen sizes and set to enable on mobile.
+
+##### V0.6 - Formatting Updates
+- Removed background color from banner brand name
+- Simplified class names for About Me to better format items.
+- Increased font size on word carousel text
+- Turned "About Me" into a flex container so that image can have bio information next to it
+- Increased font size for profile text and aligned left
+- Added resizing capabilities for "About Me" Section

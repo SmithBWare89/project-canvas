@@ -68,20 +68,17 @@
     header h1 {
         margin: 0;
         padding: 10px 15px;
-        font-size: 50px;
-        font-weight: 500px;
+        font-size: 40px;
+        font-weight: 700px;
     }
 
     /* Brand Text/Link */
     header h1 a {
         text-decoration: none;
         color: var(--grey);
-        font-weight: 800;
         text-shadow: 2px 2px 2px var(--darkgrey);
-        border: 1px solid var(--purple);
         border-radius: 20px;
-        background-color: var(--purple);
-        padding: 5px 10px;
+        padding: 10px 10px;
     }
 
     /* NavBar Margin */
@@ -112,7 +109,7 @@
     /* NavBar Links Hover Effect */
     header nav ul li a:hover {
         background: var(--purple);
-        color: var(--dark);
+        color: var(--white);
         border-radius: 20px;
         text-shadow: none;
     }
@@ -152,17 +149,18 @@
         float: inline-end;
         height: 65px;
         padding-top: 10px;
-        margin-top: -10px;
     }
 
     .wordCarousel div li {
         color: var(--purple);
         text-shadow: 1px 1px 1px var(--dark);
+        font-size: 40px;
         font-weight: 700;
         padding: 0 10px;
         height: 45px;
         margin-bottom: 45px;
         display: block;
+        text-align: center;
     }
 
     /* Animation Duration */
@@ -260,30 +258,30 @@
 /* Hero Style End */
 
 /* About Me Style Start */
-    /* About Me Text */
-    .bio {
-        text-align: center;
-        width: 50%;
-        font-weight: 600;
-        font-size: 20px;
-        text-shadow: 1px 1px 1px var(--grey);
-    }
-
-    /* About Me Images */
-    .profile-img {
-        width: 100%;
+    .profile-info  {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 400px;
     }
 
-    .profile-img img {
-        background-position: cover;
-        background-position: center;
+    .profile-info img {
+        height: 100%;
         width: 400px;
-        height: 400px;
+        align-self: flex-start;
         border-radius: 20px;
-        margin: 10px auto;
-      }
+    }
+
+    .profile-info p {
+        text-align: left;
+        width: 30%;
+        font-size: 30px;
+        font-weight: 600;
+        align-self: flex-start;
+        margin-left: 20px;
+    }
 /* About me Style End */
 
 /* My Projects Style Start */
@@ -359,7 +357,7 @@
         content: "";
         height: 100%;
         width: 100%;
-        background: linear-gradient(rgba(0,0,0,0.6), var(--darkgrey));
+        background: linear-gradient(rgba(136,136,136,.6), rgba(0,0,0,0.8));
         position: absolute;
         top: 0;
         left: 0;
@@ -398,16 +396,16 @@
 }
 
 .contact-info {
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 auto;
 }
 
 .contact-form {
     width: 40%;
-    margin: 5px auto;
+    margin: 5px 0;
 }
 
 .contact-form input, .contact-form textarea {
@@ -434,8 +432,8 @@
     border: 2px solid var(--purple);
     margin-top: 10px;
     padding: 10px 15px;
-    color: var(--dark);
-    background-color: rgba(255, 255, 255, .75);
+    color: var(--white);
+    background-color: rgba(117, 16, 247, .75);
     font-weight: 600;
     font-size: 30px;
     width: 100%;
@@ -443,7 +441,7 @@
 }
 
 .social-media {
-    margin: 5px auto;
+    margin: 5px 0;
 }
 
 .social-media ul li,
@@ -475,8 +473,8 @@
 
 .social-media ul li a:hover,
 .contact-form button:hover {
-        background: var(--purple);
-        color: var(--dark);
+        background: var(--white);
+        color: var(--purple);
         text-shadow: none;
 }
 
@@ -490,7 +488,24 @@
 
 /* Media Queries */
 @media screen and (max-width: 980px) {
-        /* My Project */
+    /* About Me */
+        /* Flex direction column to vertically align */
+        .profile-info {
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+
+        .profile-info img {
+            margin: 0 auto;
+        }
+
+        .profile-info p {
+            margin-top: 10px;
+            font-size: 20px;
+            align-self: center;
+            justify-self: center;
+        }
+    /* My Project */
         /* Cards take up verticle space */
         .project-container {
             flex-direction: column;
@@ -505,6 +520,13 @@
         /* Card takes up equal height */
         .project2 {
             height: 400px;
+        }
+
+        .profile-info p {
+            width: 70%;
+            margin: 10px auto;
+            font-size: 20px;
+            text-align: start;
         }
 
 }
@@ -566,6 +588,10 @@
             font-size: 20px;
         }
 
+    /* About Me */
+        .profile-info img {
+            width: 300px;
+        }
 }
 
 @media screen and (max-width: 575px) {
