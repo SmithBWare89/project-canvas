@@ -265,6 +265,7 @@
         align-items: center;
         width: 100%;
         min-height: 400px;
+        margin-bottom: 30px;
     }
 
     .profile-info img {
@@ -287,7 +288,7 @@
 /* My Projects Style Start */
     .project-container {
         width: 80%;
-        margin: 0 auto;
+        margin: 0 auto 30px auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -386,7 +387,6 @@
 /* Contact Information Style Start */
 .contact {
     background-color: var(--dark);
-    margin-top: 10px;
 }
 
 .contact h1 {
@@ -421,6 +421,11 @@
     outline: none;
 }
 
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background-color: var(--white);
+}
+
 .form-label {
     color: var(--grey);
     font-weight: 700;
@@ -453,7 +458,7 @@
     border-bottom: 3px solid var(--purple);
 }
 
-.social-media ul{
+.social-media ul {
     list-style: none;
     padding-bottom: 5px;
 }
@@ -592,6 +597,20 @@
         .profile-info img {
             width: 300px;
         }
+    
+    /* Social Media Links */
+    .social-media ul li a:hover,
+    .contact-form button:hover {
+        background: none;
+        color: unset;
+        text-shadow: unset;
+    }
+
+    .social-media ul li,
+    .social-media h4,
+    .social-media ul li a {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -610,7 +629,7 @@
 
     .social-media ul li:last-child {
         opacity: 1;
-        pointer-events: display;
+        pointer-events: visible;
     }
 
 

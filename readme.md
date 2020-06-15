@@ -52,3 +52,9 @@
 - Turned "About Me" into a flex container so that image can have bio information next to it
 - Increased font size for profile text and aligned left
 - Added resizing capabilities for "About Me" Section
+
+##### V0.7 - Social Media Update
+- Resized social media links so that the text is smaller when resizing
+- Cleaned up HTML formatting
+- Adjusted margins for sections
+- Added focus pseudo class to text areas in contact section
