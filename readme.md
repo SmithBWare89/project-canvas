@@ -12,31 +12,31 @@ The name "Project Canvas" is being used to encapsulate the purpose of this webpa
 # Application Features
 ### My projects gradient overlay
 
-<img src="./assets/images/ReadMeMedia/ProjectsAnimation.gif" height="200" width="400">
+![Animation to show how hovering over a project card will display a gradient with the project title.](./assets/images/ReadMeMedia/projectsanimation.gif)
 
 ### Word Carousel
 
-<img src="./assets/images/ReadMeMedia/wordcarousel.gif" height="200" width="400">
+![Animation to show how the hero word scroller functions](./assets/images/readmemedia/wordcarousel.gif)
 
 ### Nav Bar Highlight
 
-<img src="./assets/images/ReadMeMedia/NavHighlight.gif" height="200" width="400">
+![Animation to show how the navbar links have a purple background with hovered over](./assets/images/ReadMeMedia/NavHighlight.gif)
 
 ### Contacts Features
 
-<img src="assets/images/ReadMeMedia/Contacts.gif" height="200" width="400">
+![Animation shows how click on contact form input highlights area as well as hovering on social media links produces a highlight](assets/images/ReadMeMedia/Contacts.gif)
 
 ### Mobile Contacts Resizing/Form Disappear
 
-<img src="assets/images/ReadMeMedia/mobile-contact.PNG" height="150" width="200">
+![Image of how the contacts section scales down and adds e-mail optiion on mobile devices](assets/images/ReadMeMedia/mobile-contact.PNG)
 
 ### Mobile Hero
 
-<img src="assets/images/ReadMeMedia/mobile-hero.PNG" height="150" width="200">
+![Image of how the word carousel disappears when on a mobile device](assets/images/ReadMeMedia/mobile-hero.PNG)
 
 ### Mobile Projects
 
-<img src="assets/images/ReadMeMedia/mobile-projects.PNG" height="200" width="200">
+![Image of how project cards take up equal space and stack on a mobile device](assets/images/ReadMeMedia/mobile-projects.PNG)
 
 # **Commit History**
 ##### First Commit
