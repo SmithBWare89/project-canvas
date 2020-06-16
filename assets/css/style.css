@@ -577,8 +577,8 @@
         .social-media ul li a:hover,
         .contact-form button:hover {
             background: none;
-            color: unset;
-            text-shadow: unset;
+            color: none;
+            text-shadow: none;
         }
 
         .social-media ul li,
