@@ -317,6 +317,10 @@
         background-size: cover;
     }
 
+    .project3 {
+        background-image: url(../images/COVID-19-map.png);
+    }
+
    .project-title {
         font-size: 25px;
         position: relative;
