@@ -309,7 +309,6 @@
     .project1 {
         background-image: url(../images/run-buddy.PNG);
         background-size: cover;
-        height: 400px;
     }
 
     .project2 {
@@ -319,6 +318,8 @@
 
     .project3 {
         background-image: url(../images/COVID-19-map.png);
+        background-size: cover;
+        height: 400px;
     }
 
    .project-title {
