@@ -319,6 +319,11 @@
     .project3 {
         background-image: url(../images/COVID-19-map.png);
         background-size: cover;
+    }
+
+    .project4 {
+        background-image: url(../images/Drinkology.png);
+        background-size: cover;
         height: 400px;
     }
 
